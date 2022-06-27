@@ -14,7 +14,6 @@ body {
 }
 
 h1 {
-    text-align: center;
     padding: 2rem 0;
     font-family: Caveat, cursive;
     font-weight: 700;
@@ -22,14 +21,23 @@ h1 {
     background: url(images/lined_paper.jpg);
 }
 
-figure {
+figure, h1, #biography p {
     text-align: center;
 }
 
 figcaption {
     padding-top: 1rem;
+    font-size: 1.5rem;
 }
 
 div#img-div {
     margin: 0 auto;
+}
+
+#biography {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 4rem;
 }
