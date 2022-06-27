@@ -48,15 +48,11 @@ figure, h1, #biography p {
 
 figcaption {
     padding-top: 6px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 section {
     min-height: 100vh;
-}
-
-div#img-div {
-    margin: 0 auto;
 }
 
 #biography {
@@ -75,10 +71,9 @@ div#img-div {
     background: linear-gradient(180deg, snow, gray);
 }
 
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down)
 @media only screen and (max-width: 600px) {
-
-}
+} */
 
 /* Small devices (portrait tablets and large phones, 600px and up)
 @media only screen and (min-width: 600px) {} */
@@ -91,8 +86,26 @@ div#img-div {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    figcaption {
+        padding-top: 6px;
+        font-size: 1.2rem;
+    }
+
+    #biography {
+        padding-bottom: 60px;
+    }
+
     #image {
         padding: 2rem;
         border: 5px solid black;
+        width: 384px;
+    }
+
+    #tribute-info p:first-of-type {
+        padding-bottom: 20px;
     }
 }
