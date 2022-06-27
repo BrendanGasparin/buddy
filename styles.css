@@ -62,8 +62,12 @@ div#img-div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 3rem;
+    padding-bottom: 30px;
     background-color: snow;
+}
+
+#tribute-info p:first-of-type {
+    padding-bottom: 10px;
 }
 
 #gallery {
