@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     font-family: Caveat, cursive;
     font-weight: 700;
     font-size: 7rem;
@@ -24,6 +24,7 @@ h1 {
 nav ul {
     display: flex;
     justify-content: space-between;
+    background-color: lightgray;
 }
 
 nav li {
@@ -35,6 +36,7 @@ nav li {
 
 nav a, nav a:hover, nav a:visited, nav a:active {
     display: block;
+    padding: 0.5rem;
     text-decoration: none;
 }
 
@@ -51,12 +53,23 @@ div#img-div {
     margin: 0 auto;
 }
 
+.frame {
+    margin: 0 auto;
+    width: calc(192px + 10rem);
+    padding: 2rem;
+    border: 3rem solid saddlebrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px 5px black;
+}
+
 #biography {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 
 #image {
