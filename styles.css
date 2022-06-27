@@ -4,9 +4,21 @@
   box-sizing: border-box;
 }
 
+html {
+    font-family: Arial, sans-serif;
+    font-family: "Indie Flower", "Comic Sans", cursive;
+}
+
+body {
+    font-size: 2rem;
+}
+
 h1 {
     text-align: center;
     padding: 2rem 0;
+    font-family: Caveat, cursive;
+    font-weight: 700;
+    font-size: 7rem;
 }
 
 figure {
