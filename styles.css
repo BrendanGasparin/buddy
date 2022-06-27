@@ -21,6 +21,23 @@ h1 {
     background: url(images/lined_paper.jpg);
 }
 
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    width: 33.3%;
+    border: 1px solid black;
+    text-align: center;
+    list-style: none;
+}
+
+nav a, nav a:hover, nav a:visited {
+    display: inline-block;
+    text-decoration: none;
+}
+
 figure, h1, #biography p {
     text-align: center;
 }
