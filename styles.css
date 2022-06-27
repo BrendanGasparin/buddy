@@ -10,11 +10,11 @@ html {
 }
 
 body {
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 h1 {
-    padding: 1.5rem 0;
+    padding: 0.5rem 0;
     font-family: Caveat, cursive;
     font-weight: 700;
     font-size: 3.25rem;
@@ -47,7 +47,7 @@ figure, h1, #biography p {
 }
 
 figcaption {
-    padding-top: 1rem;
+    padding-top: 10px;
     font-size: 1.2rem;
 }
 
