@@ -6,7 +6,7 @@
 
 html {
     font-family: Arial, sans-serif;
-    font-family: "Indie Flower", "Comic Sans", cursive;
+    font-family: /*"Indie Flower",*/ Caveat, "Comic Sans", cursive;
 }
 
 body {
@@ -59,17 +59,6 @@ div#img-div {
     margin: 0 auto;
 }
 
-.frame {
-    margin: 0 auto;
-    width: calc(192px + 10rem);
-    padding: 2rem;
-    border: 3rem solid saddlebrown;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 5px 5px black;
-}
-
 #biography {
     display: flex;
     flex-direction: column;
@@ -89,9 +78,7 @@ div#img-div {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    #biography .frame {
-        display: none;
-    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up)
