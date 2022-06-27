@@ -32,6 +32,7 @@ nav li {
     border: 1px solid black;
     text-align: center;
     list-style: none;
+    background-color: aliceblue;
 }
 
 nav a, nav a:hover, nav a:visited, nav a:active {
@@ -47,6 +48,10 @@ figure, h1, #biography p {
 figcaption {
     padding-top: 1rem;
     font-size: 1.5rem;
+}
+
+section {
+    min-height: 100vh;
 }
 
 div#img-div {
@@ -65,14 +70,37 @@ div#img-div {
 }
 
 #biography {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 3rem;
+    background-color: snow;
+}
+
+#gallery {
+    background: linear-gradient(180deg, snow, gray);
 }
 
 #image {
     padding: 2rem;
     border: 5px solid black;
 }
+
+Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {
+    html {
+      font-size: 8px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up)
+@media only screen and (min-width: 600px) {} */
+
+/* Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {} */
+
+/* Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {} */
