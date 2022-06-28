@@ -46,7 +46,7 @@ figure, h1, #biography p {
 }
 
 figcaption {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 section {
@@ -64,7 +64,7 @@ section {
     border: 2px solid black;
     border-radius: 12px;
     background-color: #87623f;
-    margin: 5vh 1vh auto auto;
+    margin: 5vh 1.5vh auto auto;
 }
 
 #tribute-info {
