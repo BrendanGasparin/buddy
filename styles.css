@@ -58,7 +58,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     background-color: snow;
 }
 
