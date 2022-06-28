@@ -54,12 +54,15 @@ section {
     min-height: 100vh;
 }
 
+.space {
+    height: 30px;
+}
+
 #biography {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: snow;
-    margin-bottom: 30px;
 }
 
 #image {
