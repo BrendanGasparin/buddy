@@ -54,14 +54,10 @@ section {
     min-height: 100vh;
 }
 
-.space {
-    height: 30px;
-}
-
 #biography {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     background-color: snow;
 }
 
@@ -69,6 +65,11 @@ section {
     border: 2px solid black;
     border-radius: 12px;
     background-color: #87623f;
+    margin: 20px auto;
+}
+
+#tribute-info {
+    margin-top: 20px;
 }
 
 #tribute-info p:first-of-type {
