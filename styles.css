@@ -46,7 +46,6 @@ figure, h1, #biography p {
 }
 
 figcaption {
-    padding-top: 6px;
     font-size: 1rem;
 }
 
@@ -65,11 +64,11 @@ section {
     border: 2px solid black;
     border-radius: 12px;
     background-color: #87623f;
-    margin: 20px auto;
+    margin: 5vh 1vh auto auto;
 }
 
 #tribute-info {
-    margin-top: 5vh;
+    margin-top: 4vh;
 }
 
 #tribute-info p:first-of-type {
@@ -111,10 +110,6 @@ section {
     figcaption {
         padding-top: 6px;
         font-size: 1.2rem;
-    }
-
-    #biography {
-        padding-bottom: 60px;
     }
 
     #image {
