@@ -103,7 +103,7 @@ section {
         width: 250px;
     }
     #tribute-info p:first-of-type {
-        padding-bottom: 5vh;
+        padding-bottom: 10vh;
     }
 }
 @media only screen and (min-width: 600px) and (orientation: landscape) {
