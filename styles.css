@@ -90,8 +90,11 @@ section {
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up)
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    body {
+        font-size: 1.7rem;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up)
