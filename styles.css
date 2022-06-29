@@ -97,6 +97,9 @@ section {
     h1 {
         font-size: 5rem;
     }
+    h1, figcaption, #biography p {
+        font-family: "Indie Flower", Caveat, "Comic Sans", cursive;
+    }
 }
 @media only screen and (min-width: 600px) and (orientation: portrait) {
     #image {
@@ -124,10 +127,6 @@ section {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1370px) {
-    html {
-        font-family: "Indie Flower", Caveat, "Comic Sans", cursive;
-    }
-
     body {
         font-size: 1.7rem;
     }
