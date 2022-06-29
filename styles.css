@@ -97,6 +97,10 @@ section {
     body {
         font-size: 1.7rem;
     }
+    
+    h1 {
+        font-size: 5rem;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
