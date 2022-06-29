@@ -71,6 +71,10 @@ section {
     margin-top: 4vh;
 }
 
+#biography p {
+  width: 80%;
+}
+
 #tribute-info p:first-of-type {
     padding-bottom: 10px;
 }
