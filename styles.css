@@ -102,10 +102,21 @@ section {
     #image {
         width: 250px;
     }
+    #tribute-info p:first-of-type {
+        padding-bottom: 5vh;
+    }
 }
+@media only screen and (min-width: 600px) and (orientation: landscape) {
+    #tribute-info p:first-of-type {
+        padding-bottom: 3vh;
+    }
+}
+
+@media only screen and (min-width: 600px) and (orientation: landscp[e])
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+
 }
 
 /* Large devices (laptops/desktops, 992px and up)
