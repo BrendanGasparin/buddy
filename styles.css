@@ -14,10 +14,13 @@ body {
 
 h1 {
     padding: 10px 0;
+    font-size: 3.1rem;
+    background: url(https://brendangasparin.github.io/buddy/images/lined_paper.jpg);
+}
+
+h1, h2 {
     font-family: Caveat, cursive;
     font-weight: 700;
-    font-size: 3.1rem;
-    background: url(images/lined_paper.jpg);
 }
 
 nav ul {
@@ -41,7 +44,7 @@ nav a, nav a:hover, nav a:visited, nav a:active {
     font-size: 1.7rem;
 }
 
-figure, h1, #biography p {
+figure, h1, h2, #biography p {
     text-align: center;
 }
 
@@ -97,6 +100,7 @@ section {
     h1 {
         font-size: 5rem;
     }
+    
     h1, figcaption, #biography p {
         font-family: "Indie Flower", Caveat, "Comic Sans", cursive;
     }
