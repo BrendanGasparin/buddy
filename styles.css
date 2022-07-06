@@ -21,6 +21,8 @@ h1 {
 h2 {
     font-size: 2rem;
     padding: 1rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     margin-bottom: 2vh;
 }
 
@@ -119,18 +121,60 @@ section {
     border: 2px solid black;
 }
 
-.question {
-    font-weight: bold;
-}
-
-h2 {
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-}
-
 #faq h2 {
     background: linear-gradient(180deg, gray, black, gray);
     color: #ffffff;
+    min-height: 10vh;
+}
+
+.faq-div {
+    min-height: 88vh;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 0.9rem;
+}
+
+.faq-question {
+    margin-bottom: 4vh;
+}
+
+.fq-left {
+    margin-right: 20%;
+}
+
+.fq-right {
+    margin-left: 20%;
+    text-align: right;
+}
+
+.question {
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+
+#links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#links h2 {
+    width: 100%;
+}
+
+footer {
+    min-height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 /* Extra small devices (phones, 600px and down)
@@ -151,8 +195,12 @@ h2 {
         font-size: 3rem;
     }
     
-    h1, figcaption, #biography p {
+    h1, figcaption, #biography p, #faq p {
         font-family: "Indie Flower", Caveat, "Comic Sans", cursive;
+    }
+
+    .faq-div {
+        font-size: 1rem;
     }
 }
 @media only screen and (min-width: 600px) and (orientation: portrait) {
@@ -203,5 +251,13 @@ h2 {
 
     #gallery img {
         width: 400px;
+    }
+
+    .faq-div {
+        font-size: 1.5rem;
+    }
+
+    .fq-right {
+      text-align: left;
     }
 }
