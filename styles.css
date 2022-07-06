@@ -121,7 +121,7 @@ section {
     border: 2px solid black;
 }
 
-#faq h2 {
+h2 {
     background: linear-gradient(180deg, gray, black, gray);
     color: #ffffff;
     min-height: 10vh;
