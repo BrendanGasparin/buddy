@@ -85,6 +85,23 @@ section {
 
 #gallery {
     background: linear-gradient(180deg, snow, gray);
+    width: 100%;
+}
+
+.gallery-div {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery-div figure {
+  margin-bottom: 5vh;
+}
+
+.question {
+    font-weight: bold;
 }
 
 /* Extra small devices (phones, 600px and down)
