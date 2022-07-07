@@ -172,7 +172,7 @@ h2 {
     width: 300px;
 } */
 
-#links p {
+.links-div p {
     font-weight: 700;
     padding-bottom: 5vh;
 }
