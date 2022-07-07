@@ -140,6 +140,7 @@ h2 {
 
 .faq-question {
     margin-bottom: 4vh;
+    text-align: justify;
 }
 
 .fq-left {
@@ -148,7 +149,6 @@ h2 {
 
 .fq-right {
     margin-left: 20%;
-    text-align: right;
 }
 
 .question {
@@ -195,7 +195,7 @@ footer {
         font-size: 3rem;
     }
     
-    h1, figcaption, #biography p, #faq p {
+    h1, figcaption, #biography p, #faq p, #links p, #links li {
         font-family: "Indie Flower", Caveat, "Comic Sans", cursive;
     }
 
