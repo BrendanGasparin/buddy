@@ -168,6 +168,19 @@ h2 {
     width: 100%;
 }
 
+/* .links-div {
+    width: 300px;
+} */
+
+#links p {
+    font-weight: 700;
+    padding-bottom: 5vh;
+}
+
+#links li {
+    list-style: none;
+}
+
 footer {
     min-height: 10vh;
     width: 100%;
