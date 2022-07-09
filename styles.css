@@ -202,6 +202,14 @@ footer {
   footer div {
     font-size: 0.7rem;
   }
+
+  .links-div p {
+    font-size: 1.2rem;
+  }
+
+  .links-div em {
+    font-size: 1.5rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -224,14 +232,6 @@ footer {
 
     .faq-div {
         font-size: 1rem;
-    }
-
-    .links-div p {
-      font-size: 1.2rem;
-    }
-
-    .links-div em {
-      font-size: 1.5rem;
     }
 }
 @media only screen and (min-width: 600px) and (orientation: portrait) {
