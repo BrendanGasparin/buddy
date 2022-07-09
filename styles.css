@@ -192,6 +192,10 @@ footer {
     width: 300px;
     font-size: 1rem;
   }
+
+  footer div {
+    font-size: 0.9rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
