@@ -227,11 +227,11 @@ footer {
     }
 
     .links-div p {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
 
     .links-div em {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
 }
 @media only screen and (min-width: 600px) and (orientation: portrait) {
