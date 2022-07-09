@@ -168,10 +168,6 @@ h2 {
     width: 100%;
 }
 
-/* .links-div {
-    width: 300px;
-} */
-
 .links-div p {
     font-weight: 700;
     padding-bottom: 5vh;
@@ -190,9 +186,13 @@ footer {
     border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-/* Extra small devices (phones, 600px and down)
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-} */
+    .links-div, footer div {
+    width: 300px;
+    font-size: 0.9rem;
+  }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
