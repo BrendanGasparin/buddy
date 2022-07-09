@@ -225,6 +225,14 @@ footer {
     .faq-div {
         font-size: 1rem;
     }
+
+    .links-div p {
+      font-size: 1.5rem;
+    }
+
+    .links-div em {
+      font-size: 2rem;
+    }
 }
 @media only screen and (min-width: 600px) and (orientation: portrait) {
     #image {
