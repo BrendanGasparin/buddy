@@ -219,6 +219,10 @@ footer {
     .faq-div {
         font-size: 1rem;
     }
+
+    links-div {
+        width: 500px;
+    }
 }
 @media only screen and (min-width: 600px) and (orientation: portrait) {
     #image {
@@ -235,10 +239,12 @@ footer {
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up)
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
-} */
+  links-div {
+    width: 650px;
+  }
+}
 
 /* Large devices (laptops/desktops, 992px and up)
 @media only screen and (min-width: 992px) {
