@@ -80,7 +80,7 @@ section {
     background-color: #87623f;
     margin: 5vh auto 1.5vh auto;
     max-width: 350px;
-    height: 45vh;
+    max-height: 40vh;
 }
 
 #tribute-info {
