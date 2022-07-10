@@ -73,10 +73,11 @@ section {
 }
 
 #image {
+    display: block;
     border: 2px solid black;
     border-radius: 12px;
     background-color: #87623f;
-    margin: 5vh 1.5vh auto auto;
+    margin: 5vh auto 1.5vh auto;
 }
 
 #tribute-info {
