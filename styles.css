@@ -5,86 +5,86 @@
 }
 
 html {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 body {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 h1 {
-    font-size: 3.1rem;
-    padding: 2rem 0;
-    background: url(https://brendangasparin.github.io/buddy/images/lined_paper.jpg);
+  font-size: 3.1rem;
+  padding: 2rem 0;
+  background: url(https://brendangasparin.github.io/buddy/images/lined_paper.jpg);
 }
 
 h2 {
-    font-size: 2rem;
-    padding: 1rem 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    margin-bottom: 2vh;
+  font-size: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 2vh;
 }
 
 h1, h2 {
-    font-family: Caveat, cursive;
-    font-weight: 700;
+  font-family: Caveat, cursive;
+  font-weight: 700;
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-between;
-    background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
 }
 
 nav li {
-    width: 33.3%;
-    border: 1px solid black;
-    text-align: center;
-    list-style: none;
-    background-color: aliceblue;
-    font-weight: bold;
+  width: 33.3%;
+  border: 1px solid black;
+  text-align: center;
+  list-style: none;
+  background-color: aliceblue;
+  font-weight: bold;
 }
 
 nav a, nav a:hover, nav a:visited, nav a:active {
-    display: block;
-    padding: 8px;
-    text-decoration: none;
-    font-size: 1.7rem;
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 1.7rem;
 }
 
 figure, h1, h2, #biography p {
-    text-align: center;
+  text-align: center;
 }
 
 figcaption {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 section {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 #biography {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: snow;
-    padding-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: snow;
+  padding-bottom: 5vh;
 }
 
 #image {
-    display: block;
-    border: 2px solid black;
-    border-radius: 12px;
-    background-color: #87623f;
-    margin: 5vh auto 1.5vh auto;
-    max-width: 40%;
-    height: auto;
+  display: block;
+  border: 2px solid black;
+  border-radius: 12px;
+  background-color: #87623f;
+  margin: 5vh auto 1.5vh auto;
+  max-width: 40%;
+  height: auto;
 }
 
 #tribute-info {
-    margin-top: 4vh;
+  margin-top: 4vh;
 }
 
 #biography p {
@@ -93,24 +93,24 @@ section {
 }
 
 #tribute-info p:first-of-type {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 #gallery {
-    background: linear-gradient(180deg, snow, gray, white);
-    width: 100%;
+  background: linear-gradient(180deg, snow, gray, white);
+  width: 100%;
 }
 
 #gallery h2 {
-    margin-bottom: 4vh;
+  margin-bottom: 4vh;
 }
 
 .gallery-div {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .gallery-div figure {
@@ -122,37 +122,37 @@ section {
 }
 
 .gallery-div img {
-    border: 2px solid black;
+  border: 2px solid black;
 }
 
 h2 {
-    background: linear-gradient(180deg, gray, black, gray);
-    color: #ffffff;
-    min-height: 10vh;
+  background: linear-gradient(180deg, gray, black, gray);
+  color: #ffffff;
+  min-height: 10vh;
 }
 
 .faq-div {
-    min-height: 88vh;
-    width: 70%;
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    font-size: 0.9rem;
+  min-height: 88vh;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 0.9rem;
 }
 
 .faq-question {
-    margin-bottom: 4vh;
-    text-align: justify;
+  margin-bottom: 4vh;
+  text-align: justify;
 }
 
 .fq-left {
-    margin-right: 20%;
+  margin-right: 20%;
 }
 
 .fq-right {
-    margin-left: 20%;
+  margin-left: 20%;
 }
 
 .question {
@@ -161,48 +161,48 @@ h2 {
 }
 
 #links {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #links h2 {
-    width: 100%;
+  width: 100%;
 }
 
 .links-div p {
-    font-weight: 700;
-    font-size: 2.5rem;
-    padding-bottom: 5vh;
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding-bottom: 5vh;
 }
 
 .links-div p em {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 #links li {
-    list-style: none;
-    margin-bottom: 2vh;
+  list-style: none;
+  margin-bottom: 2vh;
 }
 
 footer {
-    min-height: 10vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
+  min-height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    h1 {
-      padding: 0.75rem 0;
-    }
+  h1 {
+    padding: 1rem 0;
+  }
 
-    .links-div, footer div {
+  .links-div, footer div {
     width: 300px;
     font-size: 1rem;
   }
@@ -218,92 +218,83 @@ footer {
   .links-div p em {
     font-size: 1.4rem;
   }
-
-  /*#image {
-    max-width: 170px;
-  }*/
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    body {
-        font-size: 1.7rem;
-    }
+  body {
+    font-size: 1.7rem;
+  }
     
-    h1 {
-        font-size: 5rem;
-    }
+  h1 {
+    font-size: 5rem;
+  }
 
-    h2 {
-        font-size: 3rem;
-    }
+  h2 {
+    font-size: 3rem;
+  }
     
-    h1, figcaption, #biography p, #faq p, #links p, #links li {
-        font-family: "Indie Flower", Caveat, "Comic Sans", cursive;
-    }
+  h1, figcaption, #biography p, #faq p, #links p, #links li {
+    font-family: "Indie Flower", Caveat, "Comic Sans", cursive;
+  }
 
-    .faq-div {
-        font-size: 1rem;
-    }
+  .faq-div {
+    font-size: 1rem;
+  }
 }
 @media only screen and (min-width: 600px) and (orientation: portrait) {
-    /*#image {
-        max-width: 250px;
-    }*/
-    #tribute-info p:first-of-type {
-        padding-top: 3.5vh;
-        padding-bottom: 6.5vh;
-    }
+  #tribute-info p:first-of-type {
+    padding-top: 3.5vh;
+    padding-bottom: 6.5vh;
+  }
 }
 @media only screen and (min-width: 600px) and (orientation: landscape) {
-    #image {
-        max-width: 17%;
-    }
-    #tribute-info p:first-of-type {
-        padding-bottom: 3vh;
-    }
+  #image {
+    max-width: 17%;
+  }
+  #tribute-info p:first-of-type {
+    padding-bottom: 3vh;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}
+/*@media only screen and (min-width: 768px) {
+}*/
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
+/*@media only screen and (min-width: 992px) {
+}*/
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1370px) {
-    body {
-        font-size: 1.7rem;
-    }
+  body {
+    font-size: 1.7rem;
+  }
 
-    figcaption {
-        padding-top: 6px;
-        font-size: 1.2rem;
-    }
+  figcaption {
+    padding-top: 6px;
+    font-size: 1.2rem;
+  }
 
-    #image {
-        padding: 2rem;
-        border: 5px solid black;
-        /* width: 350px; */
-        box-shadow: 0 -5px 5px 5px black;
-    }
+  #image {
+    padding: 2rem;
+    border: 5px solid black;
+    box-shadow: 0 -5px 5px 5px black;
+  }
 
-    #tribute-info p:first-of-type {
-        padding-bottom: 20px;
-    }
+  #tribute-info p:first-of-type {
+    padding-bottom: 20px;
+  }
 
-    #gallery img {
-        width: 350px;
-    }
+  #gallery img {
+    width: 350px;
+  }
 
-    .faq-div {
-        font-size: 1.5rem;
-    }
+  .faq-div {
+    font-size: 1.5rem;
+  }
 
-    .fq-right {
-      text-align: left;
-    }
+  .fq-right {
+    text-align: left;
+  }
 }
