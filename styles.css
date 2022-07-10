@@ -53,12 +53,21 @@ nav a, nav a:hover, nav a:visited, nav a:active {
   font-size: 1.7rem;
 }
 
+#img-div {
+  width: 40%;
+  margin: 0 auto;
+}
+
 figure, h1, h2, #biography p {
   text-align: center;
 }
 
 figcaption {
   font-size: 1rem;
+}
+
+#img-div figcaption {
+  font-size: 0.8rem;
 }
 
 section {
@@ -79,7 +88,7 @@ section {
   border-radius: 12px;
   background-color: #87623f;
   margin: 5vh auto 1.5vh auto;
-  max-width: 40%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -245,7 +254,7 @@ footer {
   }
 }
 @media only screen and (min-width: 600px) and (orientation: landscape) {
-  #image {
+  #img-div {
     max-width: 17%;
   }
   #tribute-info p:first-of-type {
@@ -281,6 +290,10 @@ footer {
     padding: 2rem;
     border: 5px solid black;
     box-shadow: 0 -5px 5px 5px black;
+  }
+
+  #img-div figcaption {
+    font-size: 1rem;
   }
 
   #tribute-info p:first-of-type {
