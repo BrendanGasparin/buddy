@@ -43,6 +43,7 @@ nav li {
     text-align: center;
     list-style: none;
     background-color: aliceblue;
+    font-weight: bold;
 }
 
 nav a, nav a:hover, nav a:visited, nav a:active {
@@ -273,7 +274,7 @@ footer {
     #image {
         padding: 2rem;
         border: 5px solid black;
-        width: 384px;
+        width: 350px;
         box-shadow: 0 -5px 5px 5px black;
     }
 
@@ -282,7 +283,7 @@ footer {
     }
 
     #gallery img {
-        width: 400px;
+        width: 350px;
     }
 
     .faq-div {
