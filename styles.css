@@ -79,6 +79,8 @@ section {
     border-radius: 12px;
     background-color: #87623f;
     margin: 5vh auto 1.5vh auto;
+    max-width: 350px;
+    height: 45vh;
 }
 
 #tribute-info {
@@ -212,6 +214,10 @@ footer {
   .links-div p em {
     font-size: 1.4rem;
   }
+
+  /* #image {
+    width: 170px;
+  } */
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -237,9 +243,9 @@ footer {
     }
 }
 @media only screen and (min-width: 600px) and (orientation: portrait) {
-    #image {
+    /*#image {
         width: 250px;
-    }
+    } */
     #tribute-info p:first-of-type {
         padding-top: 3.5vh;
         padding-bottom: 6.5vh;
@@ -274,7 +280,7 @@ footer {
     #image {
         padding: 2rem;
         border: 5px solid black;
-        width: 350px;
+        /* width: 350px; */
         box-shadow: 0 -5px 5px 5px black;
     }
 
